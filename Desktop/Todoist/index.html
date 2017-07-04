@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Todoit</title>
+
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.2/css/bulma.css">
+
+</head>
+<body>
+
+	<div class="column is-half is-offset-one-quarter">
+		<h1 class="title">Lista de Tarefas</h1>
+		<h5 class="subtitle">Aplicativo para gerenciamento de atividades.</h5>
+	</div>
+
+
+	<!-- Formulario -->
+	<div class="column is-half is-offset-one-quarter">		
+		<form id="formulario-filme">
+			<span class="mensagem-de-erro">O campo não pode ser vazio</span>
+			<div class="field">
+				<label class="label">Nome</label>
+				<p class="control">
+					<input class="input nome-tarefa" type="text" placeholder="Informe a atividade">
+				</p>
+			</div>		
+
+			<div class="block">
+				<a class="button is-success adicionar-tarefa">Adicionar</a>
+			</div>
+
+		</form>
+	</div>
+
+	<!-- Séries, filmes ou animes adicionados  -->
+
+	<ul class="lista-de-tarefas">
+	</ul>
+
+
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>
+
+
+
+
+
