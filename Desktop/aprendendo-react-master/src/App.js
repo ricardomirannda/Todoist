@@ -66,7 +66,7 @@ class App extends Component {
         console.log('Erro');
       }
     });
-  }
+  } 
 
   setNome (event){
     this.setState({nome: event.target.value})
